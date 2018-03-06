@@ -154,7 +154,6 @@ export default class App extends React.Component {
           <Text>{data.fields.description}</Text>
         </Body>
         <Right>
-          <Text note>{data.fields.votes} votes</Text>
         </Right>
       </ListItem>
     )
@@ -184,7 +183,7 @@ export default class App extends React.Component {
       <Container>
         <Header>
           <Body>
-            <Title>Stinder</Title>
+            <Title>30 things before 30</Title>
           </Body>
         </Header>
         <Content>
