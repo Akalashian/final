@@ -162,7 +162,7 @@ export default class App extends React.Component {
   // The UI for what appears when you swipe right
   renderSwipeRight(data, secId, rowId, rowMap) {
     return (
-      <Button full success onPress={() => this.upvoteIdea(data, secId, rowId, rowMap)}>
+      <Button full success onPress={() => this.ignoreIdea(data, secId, rowId, rowMap)}>
         <Icon active name="thumbs-up" />
       </Button>
     )
@@ -171,7 +171,7 @@ export default class App extends React.Component {
   // The UI for what appears when you swipe left
   renderSwipeLeft(data, secId, rowId, rowMap) {
     return (
-      <Button full danger onPress={() => this.downvoteIdea(data, secId, rowId, rowMap)}>
+      <Button full danger onPress={() => this.ignoreIdea(data, secId, rowId, rowMap)}>
         <Icon active name="thumbs-down" />
       </Button>
     )
